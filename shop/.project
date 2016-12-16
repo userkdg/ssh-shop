@@ -16,6 +16,7 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+
 			<name>com.genuitec.eclipse.j2eedt.core.WebClasspathBuilder</name>
 			<arguments>
 			</arguments>
