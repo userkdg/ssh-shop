@@ -1,0 +1,14 @@
+#Wed Nov 30 21:42:15 CST 2016
+myeclipseTomcatServer.shop.deployIsOverProject=false
+myeclipseTomcatServer.shop.type=WebDeployment
+myeclipseTomcatServer.shop.altContextRoot=/shop
+myeclipseTomcatServer.shop.shouldBackup=false
+myeclipseTomcatServer.shop.shouldOverwrite=false
+myeclipseTomcatServer.shop.deploymentPath=F\:\\workspaces1\\shop\\.metadata\\.me_tcat\\webapps\\shop
+myeclipseTomcatServer.shop.isExploded=true
+myeclipseTomcatServer.shop.IEARProjectName=
+myeclipseTomcatServer.shop.isUptoDate=true
+eclipse.preferences.version=1
+myeclipseTomcatServer.shop.isDeployed=true
+myeclipseTomcatServer.shop.noFileCopy=false
+myeclipseTomcatServer.shop.contextRoot=/shop

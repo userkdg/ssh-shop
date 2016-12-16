@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	
+	<!-- 配置连接池: -->
+	<!-- 引入外部属性文件 -->
+	<!--<context:property-placeholder location="classpath:jdbc.properties"/>-->
+	<!-- 配置C3P0连接池: -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="com.mysql.jdbc.Driver"/>
+                 <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/shop?autoReconnect=true"/>
+                <property name="user" value="root"/>
+		<property name="password" value="123456"/>
+	</bean>
+	
+	<!-- Hibernate的相关信息 -->
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<!-- 注入连接池 -->
+		<property name="dataSource" ref="dataSource"/>
+		<!-- 配置Hibernate的其他的属性 -->
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.connection.autocommit">false</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+		<!-- 配置Hibernate的映射文件 -->
+		<property name="mappingResources">
+			<list>
+				<value>cn/itcast/shop/user/vo/User.hbm.xml</value>
+				<value>cn/itcast/shop/category/vo/Category.hbm.xml</value>
+				<value>cn/itcast/shop/product/vo/Product.hbm.xml</value>
+				<value>cn/itcast/shop/categorysecond/vo/CategorySecond.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- 事务管理: -->
+	<!-- 事务管理器 -->
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	
+	<!-- 开启注解事务 -->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	
+	<!-- Action的配置 ===========================-->
+	
+	<!-- 首页访问的Action -->
+	<bean id="indexAction" class="cn.itcast.shop.index.action.IndexAction" scope="prototype">
+		<property name="categoryService" ref="categoryService"/>
+		<property name="productService" ref="productService"/>
+	</bean>
+	
+	<!-- 配置验证码Action -->
+	<bean id="checkImgAction" class="cn.itcast.shop.user.action.CheckImgAction" scope="prototype">
+		
+	</bean>
+	
+	<!-- 用户模块的Action -->
+	<bean id="userAction" class="cn.itcast.shop.user.action.UserAction" scope="prototype">
+		<!-- 注入Service -->
+		<property name="userService" ref="userService"/>
+	</bean>
+	
+	<!-- 商品模块的Action -->
+	<bean id="productAction" class="cn.itcast.shop.product.action.ProductAction" scope="prototype">
+		<property name="productService" ref="productService"/>
+	</bean>
+	
+	<!-- 购物车的Action -->
+	<bean id="cartAction" class="cn.itcast.shop.cart.action.CartAction" scope="prototype">
+		<property name="productService" ref="productService"/>
+	</bean>
+	
+	
+	
+	<!-- Service的配置  ===========================-->
+	<bean id="userService" class="cn.itcast.shop.user.service.UserService">
+		<property name="userDao" ref="userDao"/>
+	</bean>
+	
+	<bean id="categoryService" class="cn.itcast.shop.category.service.CategoryService">
+		<property name="categoryDao" ref="categoryDao"/>
+	</bean>
+	
+	<bean id="productService" class="cn.itcast.shop.product.service.ProductService">
+		<property name="productDao" ref="productDao"/>
+	</bean>
+	
+	
+	
+	
+	<!-- Dao的配置  ===========================-->
+	<bean id="userDao" class="cn.itcast.shop.user.dao.UserDao">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	
+	<bean id="categoryDao" class="cn.itcast.shop.category.dao.CategoryDao">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>	
+	
+	<bean id="productDao" class="cn.itcast.shop.product.dao.ProductDao">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+</beans>

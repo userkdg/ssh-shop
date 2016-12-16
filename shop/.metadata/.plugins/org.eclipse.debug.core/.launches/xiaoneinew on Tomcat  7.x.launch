@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.genuitec.eclipse.ast.deploy.core.runonserver">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/xiaoneinew"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="runonserver.exploded" value="true"/>
+<stringAttribute key="runonserver.project" value="xiaoneinew"/>
+<stringAttribute key="runonserver.server" value="tomcat7Server"/>
+<booleanAttribute key="runoserver.restart" value="true"/>
+</launchConfiguration>

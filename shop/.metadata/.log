@@ -1,0 +1,1254 @@
+!SESSION 2016-11-30 21:26:10.714 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -data F:\workspaces1\shop -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:26.392
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:26.501
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:26.532
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:26.797
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:26.829
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:26.891
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:26.938
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:26.985
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:27.078
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:27.125
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-30 21:26:27.187
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-11-30 21:28:25.464
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-11-30 21:28:26.103
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY org.eclipse.osgi 2 0 2016-11-30 21:28:31.985
+!MESSAGE While loading class "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16", thread "Thread[Worker-3,5,main]" timed out waiting (5008ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.wst.jsdt.core_1.1.100.me201109222040 [960]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.wst.jsdt.core_1.1.100.me201109222040.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-30 21:28:32.031
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY com.genuitec.eclipse.struts2 1 0 2016-11-30 21:29:42.356
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts2.model.Struts2Project.findPackageModels(Struts2Project.java:419)
+	at com.genuitec.eclipse.struts2.model.Struts2Project.getAllPackageModels(Struts2Project.java:352)
+	at com.genuitec.eclipse.struts2.model.Struts2XMLFile.getAllPackages(Struts2XMLFile.java:116)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackageDuplicaiton(Struts2PackageSourceValidator.java:64)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackagesDefinedIn(Struts2PackageSourceValidator.java:126)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.validatePackages(Struts2EditorSourceValidator.java:31)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.performValidationOn(Struts2EditorSourceValidator.java:45)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.performValidationOn(Struts2SourceValidator.java:189)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.validate(Struts2SourceValidator.java:256)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:737)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:697)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:843)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:701)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:301)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:65)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:75)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.struts2 1 0 2016-11-30 21:31:31.689
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts2.model.Struts2Project.findPackageModels(Struts2Project.java:419)
+	at com.genuitec.eclipse.struts2.model.Struts2Project.getAllPackageModels(Struts2Project.java:351)
+	at com.genuitec.eclipse.struts2.model.Struts2XMLFile.getAllPackages(Struts2XMLFile.java:116)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackageDuplicaiton(Struts2PackageSourceValidator.java:64)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackagesDefinedIn(Struts2PackageSourceValidator.java:126)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.validatePackages(Struts2EditorSourceValidator.java:31)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.performValidationOn(Struts2EditorSourceValidator.java:45)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.performValidationOn(Struts2SourceValidator.java:189)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.validate(Struts2SourceValidator.java:256)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:737)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:697)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:843)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:701)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:301)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:65)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:75)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.struts2 1 0 2016-11-30 21:31:39.379
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts2.model.Struts2Project.findPackageModels(Struts2Project.java:419)
+	at com.genuitec.eclipse.struts2.model.Struts2Project.getAllPackageModels(Struts2Project.java:352)
+	at com.genuitec.eclipse.struts2.model.Struts2XMLFile.getAllPackages(Struts2XMLFile.java:116)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackageDuplicaiton(Struts2PackageSourceValidator.java:64)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackagesDefinedIn(Struts2PackageSourceValidator.java:126)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.validatePackages(Struts2EditorSourceValidator.java:31)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.performValidationOn(Struts2EditorSourceValidator.java:45)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.performValidationOn(Struts2SourceValidator.java:189)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.validate(Struts2SourceValidator.java:256)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:737)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:697)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:843)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:701)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:301)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:65)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:75)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-12-01 00:07:29.464 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-01 00:07:43.036
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:21.086
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:21.803
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:21.897
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:21.944
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:21.944
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:22.505
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:22.521
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:22.521
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:22.537
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:22.552
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 00:08:22.552
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-01 00:08:30.727
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-01 00:08:38.698
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 00:08:50.680
+!MESSAGE While loading class "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16", thread "Thread[Worker-6,5,main]" timed out waiting (5008ms) for thread "Thread[Worker-1,5,main]" to finish starting bundle "org.eclipse.wst.jsdt.core_1.1.100.me201109222040 [960]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.wst.jsdt.core_1.1.100.me201109222040.jar" by thread "Worker-1".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-01 00:08:54.986
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-12-01 00:09:02.130
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 00:09:37.784
+!MESSAGE While loading class "org.eclipse.pde.internal.core.WorkspaceModelManager", thread "Thread[Worker-7,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-1,5,main]" to finish starting bundle "org.eclipse.pde.core_3.7.0.v20110603 [859]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.eclipse.pde.internal.core.WorkspaceModelManager" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.pde.core_3.7.0.v20110603.jar" by thread "Worker-1".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 40 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 00:09:42.838
+!MESSAGE While loading class "org.eclipse.pde.internal.core.project.PDEProject", thread "Thread[Worker-7,5,main]" timed out waiting (5001ms) for thread "Thread[Worker-1,5,main]" to finish starting bundle "org.eclipse.pde.core_3.7.0.v20110603 [859]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.eclipse.pde.internal.core.project.PDEProject" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.pde.core_3.7.0.v20110603.jar" by thread "Worker-1".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:26)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 41 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:26)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 00:09:47.849
+!MESSAGE While loading class "org.eclipse.pde.internal.core.ICoreConstants", thread "Thread[Worker-7,5,main]" timed out waiting (5001ms) for thread "Thread[Worker-1,5,main]" to finish starting bundle "org.eclipse.pde.core_3.7.0.v20110603 [859]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.eclipse.pde.internal.core.ICoreConstants" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.pde.core_3.7.0.v20110603.jar" by thread "Worker-1".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.project.PDEProject.getManifest(PDEProject.java:144)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:26)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 42 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.project.PDEProject.getManifest(PDEProject.java:144)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:26)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.struts2 1 0 2016-12-01 00:10:03.192
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts2.model.Struts2Project.findPackageModels(Struts2Project.java:419)
+	at com.genuitec.eclipse.struts2.model.Struts2Project.getAllPackageModels(Struts2Project.java:352)
+	at com.genuitec.eclipse.struts2.model.Struts2XMLFile.getAllPackages(Struts2XMLFile.java:116)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackageDuplicaiton(Struts2PackageSourceValidator.java:64)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackagesDefinedIn(Struts2PackageSourceValidator.java:126)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.validatePackages(Struts2EditorSourceValidator.java:31)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.performValidationOn(Struts2EditorSourceValidator.java:45)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.performValidationOn(Struts2SourceValidator.java:189)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.validate(Struts2SourceValidator.java:256)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:737)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:697)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:843)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:701)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:301)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:65)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:75)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.struts2 1 0 2016-12-01 00:11:57.706
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts2.model.Struts2Project.findPackageModels(Struts2Project.java:419)
+	at com.genuitec.eclipse.struts2.model.Struts2Project.getAllPackageModels(Struts2Project.java:351)
+	at com.genuitec.eclipse.struts2.model.Struts2XMLFile.getAllPackages(Struts2XMLFile.java:116)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackageDuplicaiton(Struts2PackageSourceValidator.java:64)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackagesDefinedIn(Struts2PackageSourceValidator.java:126)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.validatePackages(Struts2EditorSourceValidator.java:31)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.performValidationOn(Struts2EditorSourceValidator.java:45)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.performValidationOn(Struts2SourceValidator.java:189)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.validate(Struts2SourceValidator.java:256)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:737)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:697)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:843)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:701)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:301)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:65)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:75)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-12-01 16:34:37.483 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-01 16:35:41.746
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.114
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.192
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.334
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.569
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.584
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.928
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.941
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.945
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.955
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.971
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-12-01 16:36:45.971
+!MESSAGE Installed snippet library: F:\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-01 16:36:53.545
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-01 16:37:04.148
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-01 16:37:04.164
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-01 16:37:04.190
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-01 16:37:04.191
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-01 16:37:04.191
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-01 16:37:19.517
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 16:37:23.169
+!MESSAGE While loading class "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16", thread "Thread[Worker-10,5,main]" timed out waiting (5014ms) for thread "Thread[Worker-9,5,main]" to finish starting bundle "org.eclipse.wst.jsdt.core_1.1.100.me201109222040 [960]". To avoid deadlock, thread "Thread[Worker-10,5,main]" is proceeding but "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.wst.jsdt.core_1.1.100.me201109222040.jar" by thread "Worker-9".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-12-01 16:37:43.179
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 16:38:31.205
+!MESSAGE While loading class "org.eclipse.pde.internal.core.WorkspaceModelManager", thread "Thread[Worker-6,5,main]" timed out waiting (5009ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.pde.core_3.7.0.v20110603 [859]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.pde.internal.core.WorkspaceModelManager" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.pde.core_3.7.0.v20110603.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 40 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 16:38:36.229
+!MESSAGE While loading class "org.eclipse.pde.core.IModelProviderEvent", thread "Thread[Worker-6,5,main]" timed out waiting (5008ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.pde.core_3.7.0.v20110603 [859]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.pde.core.IModelProviderEvent" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.pde.core_3.7.0.v20110603.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 40 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 16:38:41.321
+!MESSAGE While loading class "org.eclipse.pde.internal.core.project.PDEProject", thread "Thread[Worker-6,5,main]" timed out waiting (5001ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.pde.core_3.7.0.v20110603 [859]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.pde.internal.core.project.PDEProject" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.pde.core_3.7.0.v20110603.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:26)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 41 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:26)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-01 16:38:46.416
+!MESSAGE While loading class "org.eclipse.pde.internal.core.ICoreConstants", thread "Thread[Worker-6,5,main]" timed out waiting (5030ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.pde.core_3.7.0.v20110603 [859]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.pde.internal.core.ICoreConstants" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.pde.core_3.7.0.v20110603.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.project.PDEProject.getManifest(PDEProject.java:144)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:26)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 42 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.pde.internal.core.project.PDEProject.getManifest(PDEProject.java:144)
+	at org.eclipse.pde.internal.core.WorkspaceModelManager.isPluginProject(WorkspaceModelManager.java:26)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.isInterestingProject(JavaElementChangeListener.java:110)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:52)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleChildDeltas(JavaElementChangeListener.java:73)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.handleDelta(JavaElementChangeListener.java:50)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.elementChanged(JavaElementChangeListener.java:38)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1660)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1494)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1470)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:769)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:788)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:985)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getWorkingCopy(CompilationUnit.java:960)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.createCompilationUnit(JSPTranslation.java:456)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getCompilationUnit(JSPTranslation.java:366)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.getJavaPath(JSPTranslation.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:161)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:448)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:146)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1529)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1527)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.struts2 1 0 2016-12-01 16:38:50.173
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts2.model.Struts2Project.findPackageModels(Struts2Project.java:419)
+	at com.genuitec.eclipse.struts2.model.Struts2Project.getAllPackageModels(Struts2Project.java:352)
+	at com.genuitec.eclipse.struts2.model.Struts2XMLFile.getAllPackages(Struts2XMLFile.java:116)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackageDuplicaiton(Struts2PackageSourceValidator.java:64)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackagesDefinedIn(Struts2PackageSourceValidator.java:126)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.validatePackages(Struts2EditorSourceValidator.java:31)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.performValidationOn(Struts2EditorSourceValidator.java:45)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.performValidationOn(Struts2SourceValidator.java:189)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.validate(Struts2SourceValidator.java:256)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:737)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:697)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:843)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:701)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:301)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:65)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:75)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.struts2 1 0 2016-12-01 16:40:24.033
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts2.model.Struts2Project.findPackageModels(Struts2Project.java:419)
+	at com.genuitec.eclipse.struts2.model.Struts2Project.getAllPackageModels(Struts2Project.java:351)
+	at com.genuitec.eclipse.struts2.model.Struts2XMLFile.getAllPackages(Struts2XMLFile.java:116)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackageDuplicaiton(Struts2PackageSourceValidator.java:64)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackagesDefinedIn(Struts2PackageSourceValidator.java:126)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.validatePackages(Struts2EditorSourceValidator.java:31)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.performValidationOn(Struts2EditorSourceValidator.java:45)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.performValidationOn(Struts2SourceValidator.java:189)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.validate(Struts2SourceValidator.java:256)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:737)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:697)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:843)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:701)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:301)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:65)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:75)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.struts2 1 0 2016-12-01 16:40:31.457
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.struts2.model.Struts2Project.findPackageModels(Struts2Project.java:419)
+	at com.genuitec.eclipse.struts2.model.Struts2Project.getAllPackageModels(Struts2Project.java:352)
+	at com.genuitec.eclipse.struts2.model.Struts2XMLFile.getAllPackages(Struts2XMLFile.java:116)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackageDuplicaiton(Struts2PackageSourceValidator.java:64)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2PackageSourceValidator.validatePackagesDefinedIn(Struts2PackageSourceValidator.java:126)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.validatePackages(Struts2EditorSourceValidator.java:31)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2EditorSourceValidator.performValidationOn(Struts2EditorSourceValidator.java:45)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.performValidationOn(Struts2SourceValidator.java:189)
+	at com.genuitec.eclipse.struts2.editor.source.validator.Struts2SourceValidator.validate(Struts2SourceValidator.java:256)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:737)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:697)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:843)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:701)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:301)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:65)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:75)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:88)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-12-03 23:26:44.558 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-03 23:27:33.808
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY com.genuitec.eclipse.core.common 4 0 2016-12-03 23:27:47.127
+!MESSAGE Unable to find MEContainer jar: MYECLIPSE_LIB_HOME/EE_6/mail.jar
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-03 23:28:03.082
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-03 23:28:15.510
+!MESSAGE While loading class "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16", thread "Thread[Worker-5,5,main]" timed out waiting (5003ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "org.eclipse.wst.jsdt.core_1.1.100.me201109222040 [960]". To avoid deadlock, thread "Thread[Worker-5,5,main]" is proceeding but "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/F:/MyEclipse10/Common/plugins/org.eclipse.wst.jsdt.core_1.1.100.me201109222040.jar" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:462)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

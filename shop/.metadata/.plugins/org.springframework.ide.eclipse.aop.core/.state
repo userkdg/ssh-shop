@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="mail"/>
+<aop-project name="Spring"/>
+<aop-project name="xiaoneinew"/>
+<aop-project name="library"/>
+<aop-project name="i_librarynew"/>
+<aop-project name="web"/>
+<aop-project name="librarynew"/>
+<aop-project name="myLibrary"/>
+</aop-reference-model>

@@ -1,0 +1,6 @@
+#Wed Nov 30 21:31:03 CST 2016
+SERVER_ENABLEMENT=true
+eclipse.preferences.version=1
+TOMCAT_BASE=C\:\\solr\\Tomcat7.0
+TOMCAT_HOME=C\:\\solr\\Tomcat7.0
+TOMCAT_TEMP=C\:\\solr\\Tomcat7.0\\temp

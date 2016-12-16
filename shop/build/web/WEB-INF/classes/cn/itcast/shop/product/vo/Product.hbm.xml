@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.itcast.shop.product.vo.Product" table="product">
+		<id name="pid">
+			<generator class="native"/>
+		</id>
+		<property name="pname"/>
+		<property name="market_price"/>
+		<property name="shop_price"/>
+		<property name="image"/>
+		<property name="pdesc"/>
+		<property name="is_hot"/>
+		<property name="pdate"/>
+		
+		<many-to-one name="categorySecond" lazy="false" class="cn.itcast.shop.categorysecond.vo.CategorySecond" column="csid"/>
+	</class>
+</hibernate-mapping>
